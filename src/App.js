@@ -12,6 +12,7 @@ function App() {
         <Navbar/>
         <Switch>
           <Route exact path='/'><Home/></Route>
+          <Route exact path='/Nursery'><Home/></Route>
           <Route exact path='/Home'><Home/></Route>
           <Route exact path='/AboutUs'><AboutUs/></Route>
           <Route exact path="/Adenium"><Adenium/></Route>

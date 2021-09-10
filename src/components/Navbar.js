@@ -4,18 +4,18 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div className='d-flex'>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i className="fa fa-bars"></i>
                     </button>
                 </div>
-                <div class="collapse navbar-collapse NavBar" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                <div className="collapse navbar-collapse NavBar" id="navbarSupportedContent">
+                    <ul className="navbar-nav mr-auto">
                         <li className="nav-item ">
                             <NavLink className="nav-link active" to="/Home">Nursery</NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink className="nav-link " to="/Home"><span className="fa fa-home fa-lg"></span>Home</NavLink>
                         </li>
                         <li className="nav-item dropdown">
@@ -26,7 +26,7 @@ const Navbar = () => {
                                 <NavLink className="nav-link active " to="/Landscapes">Landscapes</NavLink>
                             </div>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink className="nav-link" to="/AboutUs"><span className="fa fa-info fa-lg"></span> AboutUs</NavLink>
                         </li>
                     </ul>
