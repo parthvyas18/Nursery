@@ -1,3 +1,17 @@
 .margint{
-    margin-top: 75px;
+    margin-top: 57px;
+}
+
+.carousalHeader{
+    /* border: 2px solid black; */
+    display: flex;
+    margin:20px;
+    margin-bottom: 40px;
+    overflow:scroll;
+    
+    
+}
+.carousal{
+    background-color: rgb(191, 255, 197);
+    padding:3px;
 }

@@ -12,7 +12,7 @@ const Plants = ({ image, Name }) => {
                         <button class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                             Info
                         </button>
-                        <a href="https://www.facebook.com/profile.php?id=100010879801732" className="btn btn-light" target="_blank">Enquire</a>
+                        <a href="https://www.facebook.com/profile.php?id=100010879801732" className="btn btn-light" target="_blank" alt='facebook'>Enquire</a>
                     </div>
                 </div>
             </div>
